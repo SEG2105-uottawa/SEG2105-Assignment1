@@ -1,6 +1,6 @@
 # Lloseng
 
-This repository contains a copy of [code available to students](https://github.com/TimLethbridge/Lloseng)
+This repository contains a copy of [the cody required to complete the first assignment](https://github.com/TimLethbridge/Lloseng)
 using the book [Object-Oriented Software Engineering: Practical Software
 Development using UML and Java](http://www.site.uottawa.ca/school/research/lloseng/), 2nd Edition, 2004 McGraw Hill.
 by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
@@ -8,13 +8,14 @@ by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 
 # Lab 2 (to introduce Assignment 1)
 
-Assignment Submission before September 28, 9:30am using [BrightSpace](https://uottawa.brightspace.com/)
+Assignment Submission before September 30, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
 
 During the lab 2, you will start working on your assignment 1. The TA will explain how to setup your environment, how to measure the execution time of a Java program and HOW TO DEBUG!
-You can clone this repository using the following command:
+
+First of all, use the following invitation to join or create a repository for assignment 1. As we did for the lab 1 and project, one member of the team creates the repository, the other joins it.
 
 ```
-git clone https://github.com/SEG2105-uottawa/SEG2105-Lab2.git
+https://classroom.github.com/g/0VttTNA0
 ```
 
 Group work and partners: In this lab, and all other labs that involve programming, you
@@ -28,14 +29,14 @@ Your **private** repository should be named \[prefix\]-\[student-number-1\]_\[st
 
 
 ```
-lab02-1484511_90210901210
+assignment1-1484511_90210901210
 ```
 
 When finished, submit a text file named after your student numbers (xxxxx_yyyyy.txt).
 For example,
 
 ```
-lab02-1484511_90210901210.txt
+assignment1-1484511_90210901210.txt
 ```
 
 Within the file please include:
@@ -51,20 +52,9 @@ Only the information above should be submitted to BrightSpace.
 
 ## Logistics
 
-### Seating
-
-In the early labs, each group will use one computer, although you will need an extra computer when you are doing later labs involving client-server work.
-
-#### Saving work and accounts
-
-Your TA will give you any needed help regarding setting up your account.
-Before you leave the lab each day, make sure you have saved, committed and pushed
-your work.
-
 #### Using Eclipse
 
-You will be using Eclipse in this lab. [Instructions on how to get started](http://www.site.uottawa.ca/~mgarz042/SEG2105/assignments/Lab1_Getting_Started.html)
-in the lab. An updated version of the instructions will be presented at the beginning of the lab. 
+You will be using Eclipse in this lab. Instruction on how to setup your environment will be presented during the beginning of lab 2. Material is available on BS.
 
 
 #### Exercises
@@ -72,7 +62,7 @@ in the lab. An updated version of the instructions will be presented at the begi
 Work on the following exercises from the textbook. You must hand in
 only one copy of answers per group. Make sure the names and student numbers
 of both partners are clearly indicated. You must work on these questions
-during the lab and then finish off the work on your own time.
+during the lab and then finish off the work on your own time before the deadline.
 
 ## Analysis of various design alternatives
 
