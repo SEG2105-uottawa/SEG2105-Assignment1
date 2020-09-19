@@ -35,7 +35,7 @@ Your **private** repository should be named \[prefix\]-\[student-number-1\]_\[st
 assignment1-1484511_90210901210
 ```
 
-When finished, submit the following text: 
+When finished, submit the following text via the Brightspace submission link: 
 
 * Your names and students numbers
 * A link to your GitHub repository.
