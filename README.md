@@ -8,7 +8,7 @@ by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 
 # Lab 2 (to introduce Assignment 1)
 
-Assignment Submission before September 30, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
+Assignment Submission before October 2nd, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
 
 During the lab 2, you will start working on your assignment 1. The TA will explain how to setup your environment, how to measure the execution time of a Java program and HOW TO DEBUG!
 
@@ -90,11 +90,12 @@ You can, of course, run the programs using the Eclipse IDE (or your preferred ID
 ## PointCP
 
 All modifications should be done within the `/pointcp` directory.
-By modifying the original version, implement the following designs.
+By modifying the original version (Design 1), implement the following designs.
 
 * design 2 (edit code in `/design2` directory)
 * design 3 (edit code in `/design3` directory)
-* design 6 (edit code in `/design6` directory)
+* design 4 (edit code in `/design4` directory)
+* design 5 (edit code in `/design5` directory)
 
 4. Modify the `PointCPTest` class to allow you to test the designs you
 have developed. Do a thorough series of tests to ensure your classes
@@ -107,7 +108,7 @@ indiciate which design the output is from.
 Answer the following exercises in the provided `EXX.md` files
 using [GitHub Markdown](https://guides.github.com/features/mastering-markdown/).
 
-* Overwrite [E26](/pointcp/E26.md) (table of what you think will be the advantages and disadvantages of designs 2, 3 and 6)
+* Overwrite [E26](/pointcp/E26.md) (table of what you think will be the advantages and disadvantages of designs 2, 3, 4 and 5)
 * Overwrite [E28](/pointcp/E28.md) (performance analysis, comparing all three designs you have implemented instead of Design 1 with Design 5 as the book says)
 * Overwrite [E29](/pointcp/E29.md) (similar as E28)
 * Overwrite [E30](/pointcp/E30.md) (similar as E28)
@@ -123,7 +124,7 @@ the median result as your definitive result, plus give the maximum and minimum.
 | --- | --- | --- |
 | Design 2: Store polar coordinates only | Computed on demand, but not stored| Simply returned |
 | Design 3: Store cartesian coordinates only | Simply returned | Computed on demand, but not stored |
-| Design 6: Interface with designs 2 and 3 as classes implementing it. | Depends on the concrete class used | Depends on the concrete class used |
+| Design 5: Abstract class with designs 2 and 3 as subclasses| Depends on the concrete class used | Depends on the concrete class used |
 
 6. Overwrite the [TESTING.md](/pointcp/TESTING.md) file and clearly describe
 
@@ -134,7 +135,7 @@ the median result as your definitive result, plus give the maximum and minimum.
 
 ## ARRAYS
 
-7. Compare the performance of LinkedList, ArrayList and ordinary arrays.
+7. Compare the performance of LinkedList, Vector and ordinary arrays.
 You should do a series of experiments where you do each of the
 following tests with the three types of collection,
 timing the execution of each run.
@@ -142,7 +143,7 @@ timing the execution of each run.
 You should run each case several times on the same computer to
 obtain stable average timings.
 
-a. Construct very large collections by putting random characters (char type) into each collection one at a time. The random characters should range in value from 'a' to 'z. You should make each collection large enough so that the run takes at least 10 seconds to add the characters in the case of an ArrayList. You will have to do some initial experiments to find out what is a good size. You would use the same size of collection for Vector, LinkedList and the array. The Vector and LinkedList can be created by successively adding items and allowing them to grow, while the array has to be created at its full size and then populated with its contents. You could also try to experiment with the case where you do create the Vector and LinkedList initially with their full size.
+a. Construct very large collections by putting random characters (char type) into each collection one at a time. The random characters should range in value from 'a' to 'z'. You should make each collection large enough so that the run takes at least 10 seconds to add the characters in the case of an ArrayList. You will have to do some initial experiments to find out what is a good size. You would use the same size of collection for Vector, LinkedList and the array. The Vector and LinkedList can be created by successively adding items and allowing them to grow, while the array has to be created at its full size and then populated with its contents. You could also try to experiment with the case where you do create the Vector and LinkedList initially with their full size.
 
 b. Construct very large collections as in (a). Then use iterators to sum the elements. Subtract the construction time to get a measure of how much time the iteration takes. Use a for loop for the array, and an Iterator for the LinkedList and Vector.
 
