@@ -109,7 +109,7 @@ Answer the following exercises in the provided `EXX.md` files
 using [GitHub Markdown](https://guides.github.com/features/mastering-markdown/).
 
 * Overwrite [E26](/pointcp/E26.md) (table of what you think will be the advantages and disadvantages of designs 2, 3, 4 and 5)
-* Overwrite [E28](/pointcp/E28.md) (performance analysis, comparing all three designs you have implemented instead of Design 1 with Design 5 as the book says)
+* Overwrite [E28](/pointcp/E28.md) (performance analysis, comparing all four designs you have implemented instead of Design 1 with Design 5 as the book says)
 * Overwrite [E29](/pointcp/E29.md) (similar as E28)
 * Overwrite [E30](/pointcp/E30.md) (similar as E28)
 
@@ -124,6 +124,7 @@ the median result as your definitive result, plus give the maximum and minimum.
 | --- | --- | --- |
 | Design 2: Store polar coordinates only | Computed on demand, but not stored| Simply returned |
 | Design 3: Store cartesian coordinates only | Simply returned | Computed on demand, but not stored |
+| Design 4: Store both types of coordinates, using four instance variables| Simply returned | Simply returned |
 | Design 5: Abstract class with designs 2 and 3 as subclasses| Depends on the concrete class used | Depends on the concrete class used |
 
 6. Overwrite the [TESTING.md](/pointcp/TESTING.md) file and clearly describe
