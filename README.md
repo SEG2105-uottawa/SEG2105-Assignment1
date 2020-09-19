@@ -12,13 +12,16 @@ Assignment Submission before September 30, 11h59pm using [BrightSpace](https://u
 
 During the lab 2, you will start working on your assignment 1. The TA will explain how to setup your environment, how to measure the execution time of a Java program and HOW TO DEBUG!
 
-First of all, use the following invitation to join or create a repository for assignment 1. As we did for the lab 1 and project, one member of the team creates the repository, the other joins it.
+**INSTRUCTIONS**
+
+* Use the following invitation to join or create a repository for assignment 1. As we did for the lab 1 and project, one member of the team creates the repository, the other joins it. 
 
 ```
 https://classroom.github.com/g/0VttTNA0
 ```
+* You also need to create a Group in Brightspace (Groups_Assignment1).
 
-Group work and partners: In this lab, and all other labs that involve programming, you
+**Group work and partners**: In this lab, and all other labs that involve programming, you
 will work in **groups of two**. If you have not previously arranged to work with someone
 in your lab section, then you will have to find someone immediately. You can also work individually. 
 No groups of 3 will be permitted.
@@ -32,14 +35,7 @@ Your **private** repository should be named \[prefix\]-\[student-number-1\]_\[st
 assignment1-1484511_90210901210
 ```
 
-When finished, submit a text file named after your student numbers (xxxxx_yyyyy.txt).
-For example,
-
-```
-assignment1-1484511_90210901210.txt
-```
-
-Within the file please include:
+When finished, submit the following text: 
 
 * Your names and students numbers
 * A link to your GitHub repository.
@@ -54,7 +50,8 @@ Only the information above should be submitted to BrightSpace.
 
 #### Using Eclipse
 
-You will be using Eclipse in this lab. Instruction on how to setup your environment will be presented during the beginning of lab 2. Material is available on BS.
+Eclipse will be presented in this lab. However, feel free to use your preferred IDE.
+Instruction on how to setup your environment will be presented during the beginning of lab 2. Material is available on BS (under lab 2).
 
 
 #### Exercises
@@ -145,12 +142,12 @@ timing the execution of each run.
 You should run each case several times on the same computer to
 obtain stable average timings.
 
-a. Construct very large collections by putting random floats into each collection one at a time. The random floats should range in value from zero to 9.0. You should make each collection large enough so that the run takes at least 10 seconds to add the floats in the case of an ArrayList. You will have to do some initial experiments to find out what is a good size. You would use the same size of collection for ArrayList, LinkedList and the array. The ArrayList and LinkedList can be created by successively adding items and allowing them to grow, while the array has to be created at its full size and then populated with its contents. You could also try to experiment with the case where you do create the ArrayList and LinkedList initially with their full size.
+a. Construct very large collections by putting random characters (char type) into each collection one at a time. The random characters should range in value from 'a' to 'z. You should make each collection large enough so that the run takes at least 10 seconds to add the characters in the case of an ArrayList. You will have to do some initial experiments to find out what is a good size. You would use the same size of collection for Vector, LinkedList and the array. The Vector and LinkedList can be created by successively adding items and allowing them to grow, while the array has to be created at its full size and then populated with its contents. You could also try to experiment with the case where you do create the Vector and LinkedList initially with their full size.
 
-b. Construct very large collections as in (a). Then use iterators to sum the elements. Subtract the construction time to get a measure of how much time the iteration takes. Use a for loop for the array, and an Iterator for the LinkedList and ArrayList.
+b. Construct very large collections as in (a). Then use iterators to sum the elements. Subtract the construction time to get a measure of how much time the iteration takes. Use a for loop for the array, and an Iterator for the LinkedList and Vector.
 
 Overwrite the [ARRAY.md](/pointcp/ARRAY.md) to present your data in
 suitable tables and draw conclusions from an analysis of the data.
-From your conclusions, develop recommendations to designers.
+From your conclusions, develop recommendations to designers. Which solution is the best and why?
 
-If you have questions related to the assignment? Please use the Piazza forums!
+If you have questions related to the assignments, please use the Piazza forums (tag assignment1)! 
