@@ -39,7 +39,6 @@ When finished, submit the following text via the Brightspace submission link:
 
 * Your names and students numbers
 * A link to your GitHub repository.
-* A link to the your last commit. 
 
 Your GitHub repository should contain all solutions to the Assignment 1,
 no solution submissions via BrightSpace will be evaluated. 
