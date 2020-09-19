@@ -148,6 +148,6 @@ b. Construct very large collections as in (a). Then use iterators to sum the ele
 
 Overwrite the [ARRAY.md](/pointcp/ARRAY.md) to present your data in
 suitable tables and draw conclusions from an analysis of the data.
-From your conclusions, develop recommendations to designers. Which solution is the best and why?
+From your conclusions, develop recommendations to designers. Make you discuss about the performance, data growth and most common application of the three options.
 
 If you have questions related to the assignments, please use the Piazza forums (tag assignment1)! 
