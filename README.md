@@ -145,7 +145,7 @@ obtain stable average timings.
 
 a. Construct very large collections by putting random characters (char type) into each collection one at a time. The random characters should range in value from 'a' to 'z'. You should make each collection large enough so that the run takes at least 10 seconds to add the characters in the case of an LinkedList. You will have to do some initial experiments to find out what is a good size. You would use the same size of collection for Vector, LinkedList and the array. The Vector and LinkedList can be created by successively adding items and allowing them to grow, while the array has to be created at its full size and then populated with its contents. You could also try to experiment with the case where you do create the Vector and LinkedList initially with their full size.
 
-b. Construct very large collections as in (a). Then use iterators to sum the elements. Subtract the construction time to get a measure of how much time the iteration takes. Use a for loop for the array, and an Iterator for the LinkedList and Vector.
+b. Construct very large collections as in (a). Then use iterators to concatenate the elements. Subtract the construction time to get a measure of how much time the iteration takes. Use a for loop for the array, and an Iterator for the LinkedList and Vector.
 
 Overwrite the [ARRAY.md](/pointcp/ARRAY.md) to present your data in
 suitable tables and draw conclusions from an analysis of the data.
