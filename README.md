@@ -6,7 +6,7 @@ Development using UML and Java](http://www.site.uottawa.ca/school/research/llose
 by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 [Robert Laganière](http://www.eecs.uottawa.ca/~laganier).
 
-# Assignemnt 1 (started during lab 2)
+# Assignment 1 (started during lab 2)
 
 Assignment Submission before October 2nd, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
 
@@ -116,7 +116,6 @@ the table and a discussion of the results.
 | --- | --- | --- |
 | Design 2: Store polar coordinates only | Computed on demand, but not stored| Simply returned |
 | Design 3: Store cartesian coordinates only | Simply returned | Computed on demand, but not stored |
-| Design 4: Store both types of coordinates, using four instance variables| Simply returned | Simply returned |
 | Design 5: Abstract class with designs 2 and 3 as subclasses| Depends on the concrete class used | Depends on the concrete class used |
 
 All your written answers can be submitted in a single Word or PDF document. Make sure to push this document into your repository.
@@ -124,9 +123,9 @@ All your written answers can be submitted in a single Word or PDF document. Make
 ## Object Oriented Review
 
 Based on the memory diagram below, write the implementation in Java of all the
-classes, instance variables, and constructors. Submit the Java classes including a class named Test containing a MAIN method (that is used to create the necessary instances).
+classes, instance variables, and constructors. Submit the Java classes including a class named *Test* containing a **main** method (that is used to create the necessary instances and initialize all variables).
 
 ![alt text](https://github.com/SEG2105-uottawa/SEG2105-Assignment1/blob/master/seg2105-a1.png)
 
 
-If you have questions related to the assignments, please use the Piazza forums (tag assignment1)! 
+**If you have questions related to this assignment, please use the Piazza forums (tag assignment1)! **
