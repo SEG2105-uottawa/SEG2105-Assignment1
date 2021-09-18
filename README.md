@@ -127,4 +127,4 @@ classes, instance variables, and constructors. Submit the Java classes including
 ![alt text](https://github.com/SEG2105-uottawa/SEG2105-Assignment1/blob/master/seg2105-a1.png)
 
 
-**If you have questions related to this assignment, please use the Piazza forums (tag assignment1)! **
+**If you have questions related to this assignment, please use the Piazza forums (tag assignment1)!**
