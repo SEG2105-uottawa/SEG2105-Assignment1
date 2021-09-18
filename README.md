@@ -126,5 +126,7 @@ All your written answers can be submitted in a single Word or PDF document. Make
 Based on the memory diagram below, write the implementation in Java of all the
 classes, instance variables, and constructors. Submit the Java classes including a class named Test containing a MAIN method (that is used to create the necessary instances).
 
+![alt text](https://github.com/SEG2105-uottawa/SEG2105-Assignment1/blob/master/seg2105-a1.png)
+
 
 If you have questions related to the assignments, please use the Piazza forums (tag assignment1)! 
