@@ -90,9 +90,9 @@ You can, of course, run the programs using the Eclipse IDE (or your preferred ID
 All modifications should be done within the `/pointcp` directory.
 By modifying the original version (Design 1), implement the following designs.
 
-* design 2 (edit code in `/design2` directory). Add your code in  `PointCP2.java`. 
-* design 3 (edit code in `/design3` directory). Add your code in  `PointCP3.java` . 
-* design 5 (edit code in `/design5` directory). Add your code in  `PointCP5.java` and modify your existing  `PointCP2.java` and  `PointCP3.java` (to adapt them to the new design requirements.
+* design 2 (add code in `/design2` directory). Add your code in  `PointCP2.java`. 
+* design 3 (add code in `/design3` directory). Add your code in  `PointCP3.java` . 
+* design 5 (add code in `/design5` directory). Add your code in  `PointCP5.java` and modify your existing  `PointCP2.java` and  `PointCP3.java` (to adapt them to the new design requirements. 
 
 4. Modify the `PointCPTest` class to allow you to test the designs you
 have developed. Do a thorough series of tests to ensure your classes work properly. You can implement other classes to facilitate the task or add any extar functions to the `PointCPTest` class. 
@@ -119,10 +119,10 @@ the table and a discussion of the results.
 
 All your written answers can be submitted in a single Word or PDF document. Make sure to push this document into your repository.
 
-## Object Oriented Review
+## PART 2 - Object Oriented Review
 
 Based on the memory diagram below, write the implementation in Java of all the
-classes, instance variables, and constructors. Submit the Java classes including a class named *Test.java* containing a **main** method (that is used to create the necessary instances and initialize all variables).
+classes, instance variables, and constructors. Submit the Java classes including a class named *Test.java* containing a **main** method (that is used to create the necessary instances and initialize all variables). Place your code in the folder *code_part2* of your repository.
 
 ![alt text](https://github.com/SEG2105-uottawa/SEG2105-Assignment1/blob/master/seg2105-a1.png)
 
