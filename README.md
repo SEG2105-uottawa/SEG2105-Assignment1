@@ -119,6 +119,7 @@ the table and a discussion of the results.
 | Design 4: Store both types of coordinates, using four instance variables| Simply returned | Simply returned |
 | Design 5: Abstract class with designs 2 and 3 as subclasses| Depends on the concrete class used | Depends on the concrete class used |
 
+All your written answers can be submitted in a single Word or PDF document. Make sure to push this document into your repository.
 
 ## Object Oriented Review
 
