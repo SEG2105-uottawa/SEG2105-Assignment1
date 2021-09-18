@@ -6,7 +6,7 @@ Development using UML and Java](http://www.site.uottawa.ca/school/research/llose
 by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 [Robert Laganière](http://www.eecs.uottawa.ca/~laganier).
 
-# Assignment 1 (started during lab 2)
+# Assignment 1 - 5% of the final grade (started during lab 2) 
 
 Assignment Submission before October 2nd, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
 
