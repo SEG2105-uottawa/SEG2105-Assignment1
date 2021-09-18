@@ -95,8 +95,7 @@ By modifying the original version (Design 1), implement the following designs.
 * design 5 (edit code in `/design5` directory). Add your code in  `PointCP5.java` and modify your existing  `PointCP2.java` and  `PointCP3.java` (to adapt them to the new design requirements.
 
 4. Modify the `PointCPTest` class to allow you to test the designs you
-have developed. Do a thorough series of tests to ensure your classes
-and interface work properly. You can implement other classes to facilitate the task or add any extar functions to the `PointCPTest` class. 
+have developed. Do a thorough series of tests to ensure your classes work properly. You can implement other classes to facilitate the task or add any extar functions to the `PointCPTest` class. 
 
 5. Hand in your answers to exercises E26 (table of what you think will be the advantages and
 disadvantages of each design), and E28-E30 (performance analysis, comparing all three
@@ -106,7 +105,7 @@ thousands of times, and then find the elapsed time in milliseconds for the fixed
 of iterations. Make sure that your program runs each time for about 10 seconds so you
 get a good measure of performance. Test each method separately. Run each version
 several times to ensure that your results are consistent and use the median result as your
-definitive result, plus give the maximum and minimum
+definitive result, plus give the maximum and minimum execution time.
 
 6. Hand in a description of how you did the tests, sample outputs from running the tests,
 the table and a discussion of the results.
@@ -123,7 +122,7 @@ All your written answers can be submitted in a single Word or PDF document. Make
 ## Object Oriented Review
 
 Based on the memory diagram below, write the implementation in Java of all the
-classes, instance variables, and constructors. Submit the Java classes including a class named *Test* containing a **main** method (that is used to create the necessary instances and initialize all variables).
+classes, instance variables, and constructors. Submit the Java classes including a class named *Test.java* containing a **main** method (that is used to create the necessary instances and initialize all variables).
 
 ![alt text](https://github.com/SEG2105-uottawa/SEG2105-Assignment1/blob/master/seg2105-a1.png)
 
