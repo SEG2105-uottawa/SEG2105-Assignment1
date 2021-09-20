@@ -22,9 +22,8 @@ https://classroom.github.com/g/DKiBYq0I
 * You also need to create a Group in Brightspace (Groups_Assignment1).
 
 **Group work and partners**: In this lab, and all other labs that involve programming, you
-will work in **groups of two**. If you have not previously arranged to work with someone
-in your lab section, then you will have to find someone immediately. You can also work individually. 
-No groups of 3 will be permitted.
+will work in **groups of two**. You can work with students in ANY lab section (SEG2105B or SEG2105C). 
+You can also work individually. **No groups of 3 will be permitted.**
 
 ## Format
 
