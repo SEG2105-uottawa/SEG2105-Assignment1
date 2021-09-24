@@ -1,6 +1,6 @@
 // This file contains material supporting section 2.9 of the textbook:
 // "Object Oriented Software Engineering" and is issued under the open-source
-// license found at www.lloseng.com 
+// license found at http://www.site.uottawa.ca/school/research/lloseng/
 
 /**
  * This class contains instances of coordinates in either polar or
