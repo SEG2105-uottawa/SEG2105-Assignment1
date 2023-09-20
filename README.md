@@ -8,16 +8,16 @@ by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 
 # Assignment 1 - 5% of the final grade (started during lab 2) 
 
-Assignment Submission before October 2nd, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
+Assignment Submission before October 4th, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
 
-During the lab 2, you will start working on your assignment 1. The TA will explain how to setup your environment, how to measure the execution time of a Java program and HOW TO DEBUG!
+The TA will explain how to setup your environment during lab 2, how to measure the execution time of a Java program and HOW TO DEBUG!
 
 **INSTRUCTIONS**
 
-* Use the following invitation to join or create a repository for assignment 1. As we did for the lab 1 and project, one member of the team creates the repository, the other joins it. 
+* Use the following invitation to join or create a repository for assignment 1. As we will do for the project, one member of the team creates the repository, the other joins it. 
 
 ```
-https://classroom.github.com/g/DKiBYq0I
+https://classroom.github.com/a/205kNZfs
 ```
 * You also need to create a Group in Brightspace (Groups_Assignment1).
 
@@ -29,7 +29,6 @@ You can also work individually. **No groups of 3 will be permitted.**
 
 Your **private** repository should be named \[prefix\]-\[student-number-1\]_\[student-number-2\], for example
 
-
 ```
 assignment1-1484511_90210901210
 ```
@@ -39,8 +38,7 @@ When finished, submit the following text via the Brightspace submission link:
 * Your names and students numbers
 * A link to your GitHub repository.
 
-Your GitHub repository should contain all solutions to the Assignment 1,
-no solution submissions via BrightSpace will be evaluated. 
+Your GitHub repository should contain all solutions to the Assignment 1.
 Only the information above should be submitted to BrightSpace.
 Submissions by email will NOT be accepted.
 
@@ -49,7 +47,7 @@ Submissions by email will NOT be accepted.
 #### Using Eclipse
 
 Eclipse will be presented in this lab. However, feel free to use your preferred IDE.
-Instruction on how to setup your environment will be presented during the beginning of lab 2. Material is available on BS (under lab 2).
+Instruction on how to setup your environment will be presented during the beginning of lab 2. 
 
 #### Exercises
 
@@ -91,7 +89,7 @@ By modifying the original version (Design 1), implement the following designs.
 
 * design 2 (add code in `/design2` directory). Add your code in  `PointCP2.java`. 
 * design 3 (add code in `/design3` directory). Add your code in  `PointCP3.java` . 
-* design 5 (add code in `/design5` directory). Add your code in  `PointCP5.java` and modify your existing  `PointCP2.java` and  `PointCP3.java` (to adapt them to the new design requirements. 
+* design 5 (add code in `/design6` directory). Add your code in  `PointCP5.java` and modify your existing  `PointCP2.java` and  `PointCP3.java` (to adapt them to the new design requirements. 
 
 4. Modify the `PointCPTest` class to allow you to test the designs you
 have developed. Do a thorough series of tests to ensure your classes work properly. You can implement other classes to facilitate the task or add any extar functions to the `PointCPTest` class. 
@@ -118,12 +116,29 @@ the table and a discussion of the results.
 
 All your written answers can be submitted in a single Word or PDF document. Make sure to push this document into your repository.
 
-## PART 2 - Object Oriented Review
+## PART 2 - Arrays
 
-Based on the memory diagram below, write the implementation in Java of all the
-classes, instance variables, and constructors. Submit the Java classes including a class named *Test.java* containing a **main** method (that is used to create the necessary instances and initialize all variables). Place your code in the folder *code_part2* of your repository.
+Compare the performance of ArrayList, Vector and ordinary arrays. You should do a
+series of experiments where you do each of the following tests with the three types of
+collection, timing the execution of each run. You should run each case several times on
+the same computer to obtain stable average timings.
 
-![alt text](https://github.com/SEG2105-uottawa/SEG2105-Assignment1/blob/master/seg2105-a1.png)
+(a) Construct very large collections by putting random integers into each collection
+one at a time. The random integers should range in value from zero to nine. You
+should make each collection large enough so that the run takes at least 10 seconds to
+add the integers in the case of an ArrayList. You will have to do some initial
+experiments to find out what is a good size. You would use the same size of collection
+for ArrayList, Vector and the array. The ArrayList and Vector can be created by
+successively adding items and allowing them to grow, while the array has to be
+created at its full size and then populated with its contents. You could also try to
+experiment with the case where you do create the ArrayList and Vector initially with
+their full size.
+
+(b) Construct very large collections as in (a). Then use iterators to sum the elements.
+Subtract the construction time to get a measure of how much time the iteration takes.
+Use a for loop for the array, and an Iterator for the Vector and ArrayList.
+Present your data in suitable tables and draw conclusions from an analysis of the data. From
+your conclusions, develop recommendations to designers.
 
 
-**If you have questions related to this assignment, please use the Piazza forums (tag assignment1)!**
+**If you have questions related to this assignment, please use the Slack channel for A1 (tag assignment1)!**
